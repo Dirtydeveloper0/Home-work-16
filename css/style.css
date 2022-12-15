@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caesar+Dressing&family=Dancing+Script:wght@600;700&family=Gloria+Hallelujah&family=Open+Sans:ital,wght@0,400;1,300&family=Syne+Mono&display=swap');
+
+header {
+	height: 95rem;
+}
+
+p {
+	font-family: 'Bebas Neue';
+}
+
+.navbar {
+	width: 100%;
+}
+
+
+.logo p {
+	font-family: 'UnifrakturCook';
+	font-size: 54px;
+}
+
+
+.navbar_list {
+	font-family: 'Bebas Neue'
+}
+
+.navbar_list li {
+	transition: 0.3s;
+}
+
+.navbar_list li:hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
+.navbar_list li:invalid {
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
+.navbar_list a {
+	transition: 0.3s;
+	
+}
+
+.fa {
+	padding-left: 10px;
+}
+
+.checkbox {
+	opacity: 0;
+}
+
+.navbar_list li i {
+		transition: 0.5s;
+	}
+	
+	
+	.navbar_list li i:hover {
+		transform: scale(1.5);
+		transition: 0.3s;
+	}
+
+
+.navbar_list a:hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
+
+.hero_img img{
+	width: 800px;
+	
+}
+
+.hero_header p:nth-child(1) {
+	font-size: 70px;
+	font-weight: 800; 
+}
+
+.lorem {
+	margin-top: 20px;
+	font-size: 10px;
+	font-family: 'Open Sans'
+}
+
+.hero_text {
+	height: 300px;
+}
+
+/*YEAR*/
+
+.year {
+	font-size: 70px;
+	font-weight: 800; 
+}
+
+
+
+.year p:nth-child(1) { 
+	animation: hey .5s linear 1s infinite alternate;
+}
+
+@keyframes hey {
+	0% {
+		transform: translate(0)
+		
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+.year p:nth-child(2) {
+	animation: hey .5s linear 1.2s infinite alternate;
+}
+
+.year p:nth-child(3) {
+	animation: hey .5s linear 1.4s infinite alternate;
+}
+
+.year p:nth-child(4) {
+	animation: hey .5s linear 1.6s infinite alternate;
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	border: 1px solid black;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	border-radius: 5%;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+	line-height: 25px;
+}
+
+.button:hover {
+	background-color: black;
+	transition: 0.5s;
+	color: #fff;
+}
+
+.hero_img p{
+	width: 180px;
+	font-size: 15px;
+	position: absolute;
+	top: 17rem;
+	left: 45rem;
+	text-align: center;
+	opacity: 0.7;
+	}
+
+
+.new_releases {
+	height: 800px;
+	margin-top: 50px
+}
+
+.new_releases h1 {
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+}
+
+.new_releases p {
+	text-align: center;
+}
+
+
+.product_card {
+	width: 350px;
+	height: 280px;
+	border: 1px solid #c9c9c9;
+	overflow: hidden;
+	margin-top: 20px;
+	border-radius: 5%;
+	position: relative;
+	transition: 0.5s;
+}
+
+.product_card:hover {
+		border: 1px solid black;
+		transition: 0.5s;
+	}
+
+.product_card img {
+	width: 350px;
+	height: 250px;
+	overflow: hidden;
+}
+
+
+.product_card .price p:nth-child(1) {
+	font-family: 'Caesar Dressing';
+	transition: 0.5s;		
+}
+
+.product_card .price p:nth-child(2) {
+	font-size: 30px;
+	transform: translate(0px, 5px);
+
+}
+
+.price {
+	transition: 0.5s;
+}
+
+
+.product_card img:hover ~ .price:nth-child(2) {
+	transition: 0.5s;
+	transform: translate(0px, -40px);
+	
+}
+
+footer {
+	width: 100%;
+	height: 250px;
+	background-color: #c9c9c9;
+	
+}
+
+footer p {
+	font-family: 'Open Sans';
+	padding: 6px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+footer h4 {
+	font-size: 20px;
+	margin-top: 30px
+}
+
+.contact:nth-child(1) h4 {
+	font-family: 'UnifrakturCook';
+	font-size: 40px
+}
+
+footer p:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caesar+Dressing&family=Dancing+Script:wght@600;700&family=Gloria+Hallelujah&family=Open+Sans:ital,wght@0,400;1,300&family=Syne+Mono&display=swap');
+
+	header {
+		height: 175rem;
+	}
+
+	p {
+		font-family: 'Bebas Neue';
+	}
+
+	.navbar {
+		width: 100%;
+		align-items: flex-start
+	}
+	
+	.hamburger {
+		width: 40px;
+		height: 5px;
+		background-color: black;
+		position: relative;
+		left: 80px;
+		top: -15px;
+	}
+	
+	.hamburger::before {
+		content: '';
+		width: 40px;
+		height: 5px;
+		background-color: black;
+		position: absolute;
+		top: 9px;transition: 0.3s;
+		transform: rotate(360deg);
+	}
+	
+	.hamburger::after {
+		content: '';
+		width: 40px;
+		height: 5px;
+		background-color: black;
+		position: absolute;
+		top: -9px;transition: 0.3s;
+		transform: rotate(360deg);
+	}
+	
+	.checkbox {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		left: 80px;
+		top: 10px;
+		opacity: 0;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	.checkbox:checked ~ .hamburger {
+		background: transparent;
+		z-index: 3;
+	}
+	
+	.checkbox:checked ~ .hamburger::after {
+		transform: rotate(-45deg);
+		top: 0px;
+		z-index: 3;
+	}
+	
+	.checkbox:checked ~ .hamburger::before {
+		transform: rotate(45deg);
+		top: 0px;
+		z-index: 3;
+	}
+
+
+	.logo p {
+		font-family: 'UnifrakturCook';
+		font-size: 44px;
+	}
+	
+	.list_in {
+		width: 300px;
+		display: block;
+		text-align: start;
+		margin-top: 30px;
+		transform: translate(160px);
+		transition: 0.5s;
+		position: absolute;
+		z-index: 4;
+	}
+
+
+	.navbar_list {
+		font-family: 'Bebas Neue';
+	}
+	
+	.checkbox:checked ~ .list_in {
+		transform: translate(0px);
+		transition: 0.5s;
+	}
+
+	.navbar_list li {
+		transition: 0.3s;
+		padding: 10px;
+		font-size: 20px;
+		border: 1px solid;
+		background-color: #FFF;
+	}
+	
+	.navbar_list li i {
+		transition: 0.5s;
+	}
+	
+	
+	.navbar_list li i:hover {
+		transform: scale(1.5);
+		transition: 0.3s;
+	}
+	
+
+	.navbar_list li:hover {
+		transform: scale(1.5);
+		transition: 0.3s;
+	}
+
+	.navbar_list a {
+		transition: 0.3s;
+
+	}
+
+
+	.navbar_list a:hover {
+		transform: scale(1.5);
+		transition: 0.3s;
+	}
+
+	.hero_img img{
+		width: 800px;
+
+	}
+	
+	
+	.hero_header {
+		justify-content: space-around
+	}
+	
+
+	.hero_header p:nth-child(1) {
+		font-size: 70px;
+		font-weight: 800; 
+	}
+
+	.lorem {
+		margin-top: 20px;
+		font-size: 10px;
+		font-family: 'Open Sans'
+	}
+
+	.hero_text {
+		height: 300px;
+	}
+
+	/*YEAR*/
+
+	.year {
+		font-size: 70px;
+		font-weight: 800; 
+	}
+
+
+
+	.year p:nth-child(1) { 
+		animation: hey .5s linear 1s infinite alternate;
+	}
+
+	@keyframes hey {
+		0% {
+			transform: translate(0)
+
+		}
+		100% {
+			transform: translateY(-10px);
+		}
+	}
+
+	.year p:nth-child(2) {
+		animation: hey .5s linear 1.2s infinite alternate;
+	}
+
+	.year p:nth-child(3) {
+		animation: hey .5s linear 1.4s infinite alternate;
+	}
+
+	.year p:nth-child(4) {
+		animation: hey .5s linear 1.6s infinite alternate;
+	}
+
+	.button {
+		width: 100px;
+		height: 30px;
+		margin-top: 10px;
+		border: 1px solid black;
+		background-color: #fff;
+		font-family: 'Open Sans';
+		border-radius: 5%;
+		cursor: pointer;
+		transition: .5s;
+		text-align: center;
+		line-height: 25px;
+	}
+
+	.button:hover {
+		background-color: black;
+		transition: 0.5s;
+		color: #fff;
+	}
+	
+	.hero_text {
+		order: 1;
+	}
+	
+	.hero_img img{
+		width: 400px;
+		height: 300px
+	}
+
+	.hero_img p{
+		width: 100%;
+		font-size: 12px;
+		position: absolute;
+		top: 24rem;
+		left: 0rem;
+		text-align: center;
+		opacity: 0.7;
+		}
+
+
+	.new_releases {
+		height: 800px;
+		margin-top: 50px;
+	}
+
+	.new_releases h1 {
+		font-family: 'Bebas Neue';
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.new_releases p {
+		text-align: center;
+	}
+	
+	.products {
+		height: 1500px;
+	}
+	
+
+
+	.product_card {
+		width: 350px;
+		height: 280px;
+		border: 1px solid #c9c9c9;
+		overflow: hidden;
+		margin-top: 20px;
+		border-radius: 5%;
+		position: relative;
+		transition: 0.5s;
+	}
+	
+	.product_card:hover {
+		border: 1px solid black;
+		transition: 0.5s;
+	}
+
+	.product_card img {
+		width: 350px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+
+	.product_card .price p:nth-child(1) {
+		font-family: 'Caesar Dressing';
+		transition: 0.5s;		
+	}
+
+	.product_card .price p:nth-child(2) {
+		font-size: 30px;
+		transform: translate(0px, 5px);
+
+	}
+
+	.price {
+		transition: 0.5s;
+	}
+
+
+	.product_card img:hover ~ .price:nth-child(2) {
+		transition: 0.5s;
+		transform: translate(0px, -40px);
+
+	}
+
+	footer {
+		width: 100%;
+		height: 450px;
+		background-color: #c9c9c9;
+
+	}
+
+	footer p {
+		font-family: 'Open Sans';
+		padding: 6px;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+	
+	.contact {
+		width: 100%;
+	}
+
+	footer h4 {
+		font-size: 20px;
+		margin-top: 30px
+	}
+
+	.contact:nth-child(1) h4 {
+		font-family: 'UnifrakturCook';
+		font-size: 30px
+	}
+
+	footer p:hover {
+		transform: scale(1.1);
+		transition: 0.5s;
+	}
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
